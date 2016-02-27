@@ -1,0 +1,140 @@
+
+/* Navbar Styling*/
+.nav-link, nav,footer{
+    font-family:'Hammersmith One',cursive;
+}
+
+
+.nav-link {
+    letter-spacing: 4px;
+}
+
+.nav-link a:hover {
+    animation-name:letterMerge;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    background-color:#FF5A09;
+}
+
+@keyframes letterMerge{
+    
+    from{letter-spacing: inherit;}
+    to{letter-spacing: 1px;}
+}
+
+#title {
+    padding:20px;
+    font-size: 15px;
+    box-sizing: border-box;
+    height:100%;
+}
+
+/* Page Content */
+
+.page-header{
+    margin-top: 70px;
+}
+.row{
+    width:100%;
+}
+
+section-divider {
+    border-width: 10px;
+}
+
+body{
+    text-align: left;
+}
+
+/* Columns of Content*/
+
+#main-Content {
+    margin-top: 75px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+}
+
+#fillerColumn {
+    height:50px;
+}
+
+/*Left Column*/
+#myFace{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+/*Right Column*/
+
+#rightColumn p{
+    text-align: right;   
+}
+
+#rightColumn h3 {
+    text-align: right;
+}
+
+/*Computer Icons*/
+#computer{
+    background-image: url(/imgs/computer-icon.png);
+    background-size:cover;
+    height:30px;
+    width:18px;
+    position: relative;
+    top:10px;
+}
+
+.computer{
+    display:inline-block;
+    margin: 0px 3px;
+}
+
+/* Animals */
+#fox,#lynx,#wolf{
+    margin: 0 auto;
+}
+
+#animals{
+    margin-left:90px;
+    margin-right:90px;
+    position: relative;
+    left:-90px;
+}
+
+#fox {
+    background-image: url(/imgs/fox.jpg);
+    background-size:cover;
+    height:400px;
+}
+
+#lynx{
+    background-image: url(/imgs/lynx.jpg);
+    background-size:cover;
+    height:400px;
+    
+}
+
+#wolf{
+    background-image: url(/imgs/wolf.jpg);
+    background-size:cover;
+    height:400px;
+    
+}
+
+/* Footer */
+footer{
+    display:block;
+    text-align: center;
+    padding:15px;
+    background: #222;
+    color:white;
+}
+
+#footer-text{
+    text-align: center;
+    display:block;
+    font-size:14px;
+    font-weight: normal;
+}
+
